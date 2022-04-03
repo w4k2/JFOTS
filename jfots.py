@@ -104,9 +104,12 @@ def _use_individual_to_resample_dataset(
         y_ = np.concatenate(
             [y[y == majority_class], minority_class * np.ones(len(selected_minority))]
         )
+
+        X_ = X_[:, feature_mask]
+
         X_, y_ = oversampler.fit_resample(X_, y_)
 
-        X_ = np.concatenate([X_, unselected_minority])
+        X_ = np.concatenate([X_, unselected_minority[:, feature_mask]])
         y_ = np.concatenate([y_, minority_class * np.ones(len(unselected_minority))])
 
         return X_, y_
@@ -164,6 +167,8 @@ class _JFOTSProblem(ElementwiseProblem):
         precisions = []
         recalls = []
 
+        feature_mask = x[:-4]
+
         for (X_train, y_train, observation_types), (X_test, y_test) in self.folds:
             resampled_dataset = _use_individual_to_resample_dataset(
                 x,
@@ -186,7 +191,7 @@ class _JFOTSProblem(ElementwiseProblem):
             estimator = clone(self.estimator)
             estimator.fit(X_train_, y_train_)
 
-            predictions = estimator.predict(X_test)
+            predictions = estimator.predict(X_test[:, feature_mask])
 
             precisions.append(metrics.precision(y_test, predictions))
             recalls.append(metrics.recall(y_test, predictions))
