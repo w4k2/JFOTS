@@ -122,6 +122,7 @@ def hypervolume(values, file_name=None):
         plt.show()
     else:
         plt.savefig(file_name, bbox_inches="tight")
+    plt.close()
 
 
 def pareto_front(objectives, labels, file_name=None):
@@ -148,6 +149,7 @@ def pareto_front(objectives, labels, file_name=None):
         plt.show()
     else:
         plt.savefig(file_name, bbox_inches="tight")
+    plt.close()
 
 
 def metric_history(history, title=None, file_name=None):
