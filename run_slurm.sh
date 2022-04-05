@@ -9,7 +9,4 @@
 #SBATCH --mail-user=joanna.grzyb@pwr.edu.pl
 
 
-module add plgrid/tools/python/3.8.5
-
-
 python3 - W ignore experiment.py -fold 8 -dataset_name "haberman"
