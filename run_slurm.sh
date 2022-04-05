@@ -9,4 +9,4 @@
 #SBATCH --mail-user=joanna.grzyb@pwr.edu.pl
 
 
-python3 - W ignore experiment.py -fold 8 -dataset_name "haberman"
+python3 -W ignore experiment.py -fold 8 -dataset_name "haberman"
