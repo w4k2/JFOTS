@@ -8,23 +8,22 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
+import time
 
 from jfots import JFOTS
 import datasets
 
 
 def evaluate(fold, dataset_name):
+    start = time.time()
     RESULTS_PATH = Path(__file__).parents[0] / 'results'
     # Parameters for classifiers and optimization
     RANDOM_STATE = 0
     oversampler_class = SMOTE
     oversampler_kwargs = {"k_neighbors": 1, "random_state": 0}
     optimizer_class = NSGA2
-    optimizer_kwargs = {"pop_size": 10}  # 200
+    optimizer_kwargs = {"pop_size": 200}
 
-    # datasets_names = ["haberman"]
-    # for dataset_name in datasets_names:
-    # for dataset_name in datasets.names():
     classifiers = {
         'CART': DecisionTreeClassifier(random_state=RANDOM_STATE),
         'KNN': KNeighborsClassifier(n_neighbors=3),
@@ -65,6 +64,8 @@ def evaluate(fold, dataset_name):
             row = [dataset_name, fold, classifier_name, "JFOTS", solution.objectives, solution.feature_mask, solution.type_mask, solution.data]
             rows.append(row)
 
+        end = time.time() - start
+        print("DONE - Fold %d %s (Time: %d [s])" % (fold, dataset_name, end))
     RESULTS_PATH.mkdir(exist_ok=True, parents=True)
     pickle.dump(rows, open(result_path, "wb"))
 
@@ -78,8 +79,6 @@ if __name__ == '__main__':
 
     evaluate(args.fold, args.dataset_name)
     # przykładowe wywołanie w konsoli: python experiment.py -fold 8 -dataset_name "haberman"
-
-    # evaluate(6, "haberman")
 
     # Wczytanie pickle
     # rows = pickle.load(open("results_final/haberman_1.p", "rb"))
