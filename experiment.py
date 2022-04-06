@@ -8,13 +8,18 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
+from joblib import Parallel, delayed
 import time
 
 from jfots import JFOTS
 import datasets
 
+logging.basicConfig(filename='textinfo/experiment.log', filemode="a", format='%(asctime).s - %(levelname)s: %(message)s', level='DEBUG')
+
 
 def evaluate(fold, dataset_name):
+    print(f'START: {fold}, {dataset_name}')
+    logging.info(f'START - {fold}, {dataset_name}')
     start = time.time()
     RESULTS_PATH = Path(__file__).parents[0] / 'results'
     # Parameters for classifiers and optimization
@@ -64,22 +69,31 @@ def evaluate(fold, dataset_name):
             row = [dataset_name, fold, classifier_name, "JFOTS", solution.objectives, solution.feature_mask, solution.type_mask, solution.data]
             rows.append(row)
 
-        end = time.time() - start
-        print("DONE - Fold %d %s (Time: %d [s])" % (fold, dataset_name, end))
+        end = round(time.time() - start)
+        print(f'DONE - Fold {fold} {dataset_name} (Time: {end} [s]) Classifier {classifier_name}')
+        logging.info(f'DONE - Fold {fold} {dataset_name} (Time: {end} [s]) Classifier {classifier_name}')
     RESULTS_PATH.mkdir(exist_ok=True, parents=True)
     pickle.dump(rows, open(result_path, "wb"))
 
 
-if __name__ == '__main__':
-    logging.basicConfig(level=logging.INFO)
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-fold', type=int)
-    parser.add_argument('-dataset_name', type=str)
-    args = parser.parse_args()
-
-    evaluate(args.fold, args.dataset_name)
+# if __name__ == '__main__':
+#     logging.basicConfig(level=logging.INFO)
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument('-fold', type=int)
+#     parser.add_argument('-dataset_name', type=str)
+#     args = parser.parse_args()
+#
+#     evaluate(args.fold, args.dataset_name)
     # przykładowe wywołanie w konsoli: python experiment.py -fold 8 -dataset_name "haberman"
 
     # Wczytanie pickle
     # rows = pickle.load(open("results_final/haberman_1.p", "rb"))
     # print(rows)
+
+# Multithread; n_jobs - number of threads, where -1 all threads, safe for my computer 2
+Parallel(n_jobs=-1)(
+                delayed(evaluate)
+                (fold, dataset_name)
+                for fold in range(10)
+                for dataset_name in datasets.names()
+                )
