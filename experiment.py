@@ -32,7 +32,9 @@ def evaluate(fold, dataset_name):
         # 'MLP': MLPClassifier(random_state=RANDOM_STATE)
     }
     result_name = f'{dataset_name}_{fold}.p'
-    result_path = RESULTS_PATH / f'raw' / result_name
+    r_path = RESULTS_PATH / f'raw'
+    r_path.mkdir(exist_ok=True, parents=True)
+    result_path = r_path / result_name
 
     dataset = datasets.load(dataset_name)
     (X_train, y_train), (X_test, y_test) = dataset[fold][0], dataset[fold][1]
