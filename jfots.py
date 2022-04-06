@@ -1,3 +1,4 @@
+from __future__ import annotations  # needed for older version of Python
 from collections import Counter
 from enum import Enum
 from typing import Optional, Type, Union
