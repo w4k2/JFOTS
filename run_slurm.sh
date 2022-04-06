@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -A plgjoannagrzyb2022a
+#SBATCH -A plgt-joannagrzyb
 #SBATCH -J eksperymentJFOTS
 #SBATCH -P plgrid
 #SBATCH -N 1
