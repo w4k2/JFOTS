@@ -1,8 +1,8 @@
 #!/bin/bash
 
+#SBATCH -P plgrid
 #SBATCH -A plgt-joannagrzyb
 #SBATCH -J eksperymentJFOTS
-#SBATCH -P plgrid
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
 #SBATCH --time=72:00:00
