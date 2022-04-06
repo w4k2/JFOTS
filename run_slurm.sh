@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -P plgrid
-#SBATCH -A plgt-joannagrzyb
+#SBATCH -A plgjoannagrzyb2022a
 #SBATCH -J eksperymentJFOTS
 #SBATCH -N 1
 #SBATCH --ntasks-per-node=1
