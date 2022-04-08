@@ -1,0 +1,1234 @@
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone9-18
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: START - 0, glass-0-1-6_vs_2
+ - INFO: START - 0, glass-0-1-6_vs_5
+ - INFO: START - 0, glass2
+ - INFO: START - 0, glass4
+ - INFO: START - 0, glass5
+ - INFO: START - 0, page-blocks-1-3_vs_4
+ - INFO: START - 0, yeast-0-5-6-7-9_vs_4
+ - INFO: START - 0, yeast-1-2-8-9_vs_7
+ - INFO: START - 0, yeast-1-4-5-8_vs_7
+ - INFO: START - 0, yeast-1_vs_7
+ - INFO: START - 0, yeast-2_vs_4
+ - INFO: START - 0, yeast-2_vs_8
+ - INFO: START - 0, yeast4
+ - INFO: START - 0, yeast5
+ - INFO: START - 0, yeast6
+ - INFO: START - 0, cleveland-0_vs_4
+ - INFO: START - 0, ecoli-0-1-4-7_vs_2-3-5-6
+ - INFO: START - 0, ecoli-0-1_vs_2-3-5
+ - INFO: START - 0, ecoli-0-2-6-7_vs_3-5
+ - INFO: START - 0, ecoli-0-6-7_vs_3-5
+ - INFO: START - 0, ecoli-0-6-7_vs_5
+ - INFO: START - 0, glass-0-1-4-6_vs_2
+ - INFO: START - 0, glass-0-1-5_vs_2
+ - INFO: START - 0, yeast-0-2-5-6_vs_3-7-8-9
+ - INFO: START - 0, yeast-0-3-5-9_vs_7-8
+ - INFO: START - 0, abalone-17_vs_7-8-9-10
+ - INFO: START - 0, abalone-19_vs_10-11-12-13
+ - INFO: START - 0, abalone-20_vs_8-9-10
+ - INFO: START - 0, abalone-21_vs_8
+ - INFO: START - 0, flare-F
+ - INFO: START - 0, kddcup-buffer_overflow_vs_back
+ - INFO: START - 0, kddcup-rootkit-imap_vs_back
+ - INFO: START - 0, kr-vs-k-zero_vs_eight
+ - INFO: START - 0, poker-8-9_vs_5
+ - INFO: START - 0, poker-8-9_vs_6
+ - INFO: START - 0, poker-8_vs_6
+ - INFO: START - 0, poker-9_vs_7
+ - INFO: START - 0, winequality-red-3_vs_5
+ - INFO: START - 0, winequality-red-4
+ - INFO: START - 0, winequality-red-8_vs_6-7
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FDAED9A9040}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone9-18
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, page-blocks-1-3_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-0-5-6-7-9_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-2-8-9_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-4-5-8_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-2_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-2_vs_8
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, cleveland-0_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1-4-7_vs_2-3-5-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1_vs_2-3-5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-2-6-7_vs_3-5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-6-7_vs_3-5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-6-7_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-4-6_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-5_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-0-2-5-6_vs_3-7-8-9
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-0-3-5-9_vs_7-8
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone-17_vs_7-8-9-10
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone-19_vs_10-11-12-13
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone-20_vs_8-9-10
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone-21_vs_8
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, flare-F
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, kddcup-buffer_overflow_vs_back
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, kddcup-rootkit-imap_vs_back
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, kr-vs-k-zero_vs_eight
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, poker-8-9_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, poker-8-9_vs_6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, poker-8_vs_6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, poker-9_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-red-3_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-red-4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-red-8_vs_6-7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-red-8_vs_6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-white-3-9_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-white-3_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, winequality-white-9_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, zoo-3
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli1
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli3
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass0
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass1
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, haberman
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, page-blocks0
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, pima
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, vehicle1
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, vehicle3
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast1
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast3
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, abalone9-18
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, ecoli-0-1-3-7_vs_2-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, glass-0-1-6_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, glass-0-1-6_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, glass2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, glass4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, glass5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 1, page-blocks-1-3_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F9508CDEE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone9-18
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, page-blocks-1-3_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-0-5-6-7-9_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-2-8-9_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-4-5-8_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-2_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-2_vs_8
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, cleveland-0_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1-4-7_vs_2-3-5-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FD21710FE40}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1_vs_2-3-5
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone9-18
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FAC28A11140}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone19
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, abalone19
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, abalone19
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, abalone19
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone9-18
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, abalone9-18
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, ecoli-0-1-3-7_vs_2-6
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_2
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, glass-0-1-6_vs_2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass-0-1-6_vs_5
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, glass-0-1-6_vs_5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass2
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, glass2
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass4
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, glass4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, glass5
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, glass5
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, page-blocks-1-3_vs_4
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, page-blocks-1-3_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-0-5-6-7-9_vs_4
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, yeast-0-5-6-7-9_vs_4
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-2-8-9_vs_7
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, yeast-1-2-8-9_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1-4-5-8_vs_7
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, yeast-1-4-5-8_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, yeast-1_vs_7
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: START - 0, yeast-1_vs_7
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F16AF2AA740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FE21D542740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, haberman, JFOTS
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FE21D542740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, poker-9_vs_7, JFOTS
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 1, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 1, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 1, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 1, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 1, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 1, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 1, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 1, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FE21D542740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 1, haberman, JFOTS
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 1, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 1, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 1, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 1, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 1, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 1, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 1, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 1, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FE21D542740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 1, poker-9_vs_7, JFOTS
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FC9B95E3740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, haberman, JFOTS
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FC9B95E3740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, poker-9_vs_7, JFOTS
+ - INFO: START - 0, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F848D2C2740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, haberman, JFOTS
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F848D2C2740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, poker-9_vs_7, JFOTS
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 1, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 1, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 1, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 1, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 1, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 1, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 1, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 1, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F848D2C2740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 1, haberman, JFOTS
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 1, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 1, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 1, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 1, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 1, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 1, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 1, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 1, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F848D2C2740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 1, poker-9_vs_7, JFOTS
+ - INFO: DONE - Fold 1 poker-9_vs_7 (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, haberman, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, haberman, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, haberman, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, haberman, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F524287E740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, haberman, JFOTS
+ - INFO: DONE - Fold 0 haberman (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 0, poker-9_vs_7, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 0, poker-9_vs_7, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Lee
+ - INFO: START - 0, poker-9_vs_7, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOBD
+ - INFO: START - 0, poker-9_vs_7, G-SMOTE
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler G-SMOTE
+ - INFO: START - 0, poker-9_vs_7, LVQ-SMOTE
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler LVQ-SMOTE
+ - INFO: START - 0, poker-9_vs_7, Assembled-SMOTE
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler Assembled-SMOTE
+ - INFO: START - 0, poker-9_vs_7, SMOTE-TomekLinks
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F524287E740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler SMOTE-TomekLinks
+ - INFO: START - 0, poker-9_vs_7, JFOTS
+ - INFO: DONE - Fold 0 poker-9_vs_7 (Time: 0 [s]) Resampler JFOTS
+ - INFO: START - 1, haberman, SMOTE
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler SMOTE
+ - INFO: START - 1, haberman, polynom-fit-SMOTE
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler polynom-fit-SMOTE
+ - INFO: START - 1, haberman, Lee
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: DONE - Fold 1 haberman (Time: 0 [s]) Resampler Lee
+ - INFO: START - 1, haberman, SMOBD
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F4ACFD33740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F4ACFD33740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F826D84A640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F826D84A640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F826D84A640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F826D84A640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F81EB9D6640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F81EB9D6640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F81EB9D6640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F81EB9D6640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FA366086640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FA366086640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FA366086640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FA366086640}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F64961BD740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F64961BD740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F64961BD740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7F64961BD740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FDC1012F740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FDC1012F740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FDC1012F740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FDC1012F740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval
+ - INFO: START - 0, abalone19
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: polynom_fit_SMOTE: Running sampling via ('polynom_fit_SMOTE', "{'proportion': 1.0, 'topology': 'star', 'random_state': 0}")
+ - WARNING: polynom_fit_SMOTE: Sampling is not needed
+ - INFO: Lee: Running sampling via ('Lee', "{'proportion': 1.0, 'n_neighbors': 5, 'rejection_level': 0.5, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Lee: Sampling is not needed
+ - INFO: SMOBD: Running sampling via ('SMOBD', "{'proportion': 1.0, 'eta1': 0.5, 't': 1.8, 'min_samples': 5, 'max_eps': 1.0, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: SMOBD: Sampling is not needed
+ - INFO: G_SMOTE: Running sampling via ('G_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'method': 'linear', 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: G_SMOTE: Sampling is not needed
+ - INFO: LVQ_SMOTE: Running sampling via ('LVQ_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_clusters': 10, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: LVQ_SMOTE: Sampling is not needed
+ - INFO: Assembled_SMOTE: Running sampling via ('Assembled_SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'pop': 2, 'thres': 0.3, 'n_jobs': 1, 'random_state': 0}")
+ - WARNING: Assembled_SMOTE: Sampling is not needed
+ - INFO: SMOTE_TomekLinks: Running sampling via ('SMOTE_TomekLinks', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': 0}")
+ - INFO: SMOTE: Running sampling via ('SMOTE', "{'proportion': 1.0, 'n_neighbors': 5, 'n_jobs': 1, 'random_state': RandomState(MT19937) at 0x7FF4F5B37740}")
+ - INFO: TomekLinkRemoval: Running noise removal via TomekLinkRemoval

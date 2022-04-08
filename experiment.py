@@ -76,20 +76,6 @@ def evaluate(fold, dataset_name):
     pickle.dump(rows, open(result_path, "wb"))
 
 
-# if __name__ == '__main__':
-#     logging.basicConfig(level=logging.INFO)
-#     parser = argparse.ArgumentParser()
-#     parser.add_argument('-fold', type=int)
-#     parser.add_argument('-dataset_name', type=str)
-#     args = parser.parse_args()
-#
-#     evaluate(args.fold, args.dataset_name)
-    # przykładowe wywołanie w konsoli: python experiment.py -fold 8 -dataset_name "haberman"
-
-    # Wczytanie pickle
-    # rows = pickle.load(open("results_final/haberman_1.p", "rb"))
-    # print(rows)
-
 # Multithread; n_jobs - number of threads, where -1 all threads, safe for my computer 2
 Parallel(n_jobs=-1)(
                 delayed(evaluate)
