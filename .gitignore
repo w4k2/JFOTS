@@ -2,8 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-results_from_server/figures
-results_from_server/raw
+results_from_server/
 
 # C extensions
 *.so
