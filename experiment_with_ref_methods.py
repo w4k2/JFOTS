@@ -124,10 +124,10 @@ def evaluate(dataset_name, classifier_name, resampler_name):
             solutions = []
 
             for solution_id in range(len(JFOTS_results)):
-                solutions.append(JFOTS_results[solution_id][4])
                 if JFOTS_results[solution_id][7] is None:
                     pass
                 else:
+                    solutions.append(JFOTS_results[solution_id][4])
                     no_results = False
 
                     # Best precision
@@ -140,30 +140,6 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                     if rc > max_rc:
                         max_rc = rc
                         max_rc_id = solution_id
-
-            solutions = np.array(solutions)
-
-            # criteria min (0) or max (1) optimization array
-            criteria_min_max = ([0, 0])
-            criteria_weights = np.array([0.5, 0.5])
-            # u - usual
-            preference_function = (['u', 'u'])
-            net_flows = promethee_function(solutions, criteria_min_max, preference_function, criteria_weights)
-            promethee_id = np.argmax(net_flows, axis=0)
-
-            X_train = JFOTS_results[promethee_id][7][0]
-            y_train = JFOTS_results[promethee_id][7][1]
-
-            # Prepare test set with features from feature_mask
-            feature_mask = JFOTS_results[promethee_id][5]
-            X_test, y_test = dataset[fold][1]
-            X_test = X_test[:, feature_mask]
-            classifier = clone(classifiers[classifier_name])
-            clf = classifier.fit(X_train, y_train)
-            predictions = clf.predict(X_test)
-
-            for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
-                scores_[2, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
 
             if not no_results:
                 X_train = JFOTS_results[max_pr_id][7][0]
@@ -195,6 +171,30 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 
                 for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                     scores_[1, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
+
+                solutions = np.array(solutions)
+
+                # criteria min (0) or max (1) optimization array
+                criteria_min_max = ([0, 0])
+                criteria_weights = np.array([0.5, 0.5])
+                # u - usual
+                preference_function = (['u', 'u'])
+                net_flows = promethee_function(solutions, criteria_min_max, preference_function, criteria_weights)
+                promethee_id = np.argmax(net_flows, axis=0)
+
+                X_train = JFOTS_results[promethee_id][7][0]
+                y_train = JFOTS_results[promethee_id][7][1]
+
+                # Prepare test set with features from feature_mask
+                feature_mask = JFOTS_results[promethee_id][5]
+                X_test, y_test = dataset[fold][1]
+                X_test = X_test[:, feature_mask]
+                classifier = clone(classifiers[classifier_name])
+                clf = classifier.fit(X_train, y_train)
+                predictions = clf.predict(X_test)
+
+                for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
+                    scores_[2, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
 
         else:
             resampler = resamplers[resampler_name]
