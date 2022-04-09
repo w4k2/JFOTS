@@ -32,7 +32,8 @@ resamplers = {
     'Assembled-SMOTE': sv.Assembled_SMOTE(random_state=RANDOM_STATE),
     'SMOTE-TomekLinks': sv.SMOTE_TomekLinks(random_state=RANDOM_STATE),
     'JFOTS_pr': None,
-    'JFOTS_rc': None
+    'JFOTS_rc': None,
+    'JFOTS_prom': None
 }
 
 
