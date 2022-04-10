@@ -99,7 +99,6 @@ def promethee_function(solutions, criteria_min_max, preference_function, criteri
 
 
 def evaluate(dataset_name, classifier_name, resampler_name):
-    start = time.time()
 
     scores = np.zeros((len(scoring_functions), 10))
     scores_ = np.zeros((3, len(scoring_functions), 10))
@@ -122,12 +121,14 @@ def evaluate(dataset_name, classifier_name, resampler_name):
             no_results = True
 
             solutions = []
+            solutions_scores = []
 
             for solution_id in range(len(JFOTS_results)):
                 if JFOTS_results[solution_id][7] is None:
                     pass
                 else:
-                    solutions.append(JFOTS_results[solution_id][4])
+                    solutions.append(JFOTS_results[solution_id])
+                    solutions_scores.append(JFOTS_results[solution_id][4])
                     no_results = False
 
                     # Best precision
@@ -172,21 +173,23 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                 for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                     scores_[1, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
 
-                solutions = np.array(solutions)
+                solutions_scores = np.array(solutions_scores)
 
                 # criteria min (0) or max (1) optimization array
                 criteria_min_max = ([0, 0])
                 criteria_weights = np.array([0.5, 0.5])
                 # u - usual
                 preference_function = (['u', 'u'])
-                net_flows = promethee_function(solutions, criteria_min_max, preference_function, criteria_weights)
+                net_flows = promethee_function(solutions_scores, criteria_min_max, preference_function, criteria_weights)
                 promethee_id = np.argmax(net_flows, axis=0)
 
-                X_train = JFOTS_results[promethee_id][7][0]
-                y_train = JFOTS_results[promethee_id][7][1]
+                print(solutions[promethee_id])
+
+                X_train = solutions[promethee_id][7][0]
+                y_train = solutions[promethee_id][7][1]
 
                 # Prepare test set with features from feature_mask
-                feature_mask = JFOTS_results[promethee_id][5]
+                feature_mask = solutions[promethee_id][5]
                 X_test, y_test = dataset[fold][1]
                 X_test = X_test[:, feature_mask]
                 classifier = clone(classifiers[classifier_name])
@@ -231,7 +234,7 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 Parallel(n_jobs=4)(
                 delayed(evaluate)
                 (dataset_name, classifier_name, resampler_name)
-                for dataset_name in datasets.names()
+                for dataset_name in [datasets.names()[46]]
                 for classifier_name in classifiers.keys()
                 for resampler_name in resamplers
                 )
