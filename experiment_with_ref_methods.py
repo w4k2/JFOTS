@@ -183,8 +183,6 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                 net_flows = promethee_function(solutions_scores, criteria_min_max, preference_function, criteria_weights)
                 promethee_id = np.argmax(net_flows, axis=0)
 
-                print(solutions[promethee_id])
-
                 X_train = solutions[promethee_id][7][0]
                 y_train = solutions[promethee_id][7][1]
 
