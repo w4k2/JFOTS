@@ -232,7 +232,7 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 Parallel(n_jobs=4)(
                 delayed(evaluate)
                 (dataset_name, classifier_name, resampler_name)
-                for dataset_name in [datasets.names()[46]]
+                for dataset_name in datasets.names()
                 for classifier_name in classifiers.keys()
                 for resampler_name in resamplers
                 )
