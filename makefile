@@ -12,3 +12,7 @@ zip_scores:
 analysis:
 	python -W ignore analysis.py
 	cd article && pdflatex main.tex main.pdf && xdg-open main.pdf
+
+analysis_bac:
+	python -W ignore analysis_best_metric.py
+	cd article && pdflatex main.tex main.pdf && xdg-open main.pdf
