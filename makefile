@@ -8,6 +8,23 @@ experiment:
 
 zip_scores:
 	zip -qr results_from_server/scores.zip results_from_server/scores/
+	zip -qr results_ros/scores.zip results_ros/scores/
+	zip -qr results_ros_pop1000/scores.zip results_ros_pop1000/scores/
+	zip -qr results_smote3_pop500/scores.zip results_smote3_pop500/scores/
+	zip -qr results_smote3_pop1000/scores.zip results_smote3_pop1000/scores/
+	zip -qr results_smote5_pop500/scores.zip results_smote5_pop500/scores/
+	zip -qr results_smote5/scores.zip results_smote5/scores/
+	zip -qr results_cv52/scores.zip results_cv52/scores/
+
+zip_figures:
+	zip -qr results_from_server/figures.zip results_from_server/figures/
+	zip -qr results_ros/figures.zip results_ros/figures/
+	zip -qr results_ros_pop1000/figures.zip results_ros_pop1000/figures/
+	zip -qr results_smote3_pop500/figures.zip results_smote3_pop500/figures/
+	zip -qr results_smote3_pop1000/figures.zip results_smote3_pop1000/figures/
+	zip -qr results_smote5_pop500/figures.zip results_smote5_pop500/figures/
+	zip -qr results_smote5/figures.zip results_smote5/figures/
+	zip -qr results_cv52/figures.zip results_cv52/figures/
 
 analysis:
 	python -W ignore analysis.py

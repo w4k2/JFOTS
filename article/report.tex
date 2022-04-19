@@ -1,0 +1,54 @@
+\documentclass{llncs}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\title{JFOTS -- SMOTE 1 POP 200 CV 1x2}
+
+\begin{document}
+
+\maketitle
+
+\section{Results}
+
+% SMOTE1 POP200
+\input{../results/tables/results_BAC_CART}
+\input{../results/tables/results_BAC_KNN}
+\input{../results/tables/results_BAC_SVM}
+
+% SMOTE3 POP500
+\input{../results_smote3_pop500/tables/results_smote3_pop500_BAC_CART}
+\input{../results_smote3_pop500/tables/results_smote3_pop500_BAC_KNN}
+\input{../results_smote3_pop500/tables/results_smote3_pop500_BAC_SVM}
+
+% SMOTE3 POP1000
+\input{../results_smote3_pop1000/tables/results_smote3_pop1000_BAC_CART}
+\input{../results_smote3_pop1000/tables/results_smote3_pop1000_BAC_KNN}
+\input{../results_smote3_pop1000/tables/results_smote3_pop1000_BAC_SVM}
+
+% SMOTE5 POP200
+\input{../results_smote5/tables/results_smote5_BAC_CART}
+\input{../results_smote5/tables/results_smote5_BAC_KNN}
+\input{../results_smote5/tables/results_smote5_BAC_SVM}
+
+% SMOTE5 POP200 CV5x2
+\input{../results_cv52/tables/results_cv52_BAC_CART}
+\input{../results_cv52/tables/results_cv52_BAC_KNN}
+\input{../results_cv52/tables/results_cv52_BAC_SVM}
+
+% SMOTE5 POP500
+\input{../results_smote5_pop500/tables/results_smote5_pop500_BAC_CART}
+\input{../results_smote5_pop500/tables/results_smote5_pop500_BAC_KNN}
+\input{../results_smote5_pop500/tables/results_smote5_pop500_BAC_SVM}
+
+% ROS POP200
+\input{../results_ros/tables/results_ros_BAC_CART}
+\input{../results_ros/tables/results_ros_BAC_KNN}
+\input{../results_ros/tables/results_ros_BAC_SVM}
+
+% ROS POP1000
+\input{../results_ros_pop1000/tables/results_ros_pop1000_BAC_CART}
+\input{../results_ros_pop1000/tables/results_ros_pop1000_BAC_KNN}
+\input{../results_ros_pop1000/tables/results_ros_pop1000_BAC_SVM}
+
+\end{document}

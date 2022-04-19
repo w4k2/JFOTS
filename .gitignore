@@ -2,8 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
 results_from_server/raw
 results_from_server/scores
+*/scores
+*/figures
+*/raw
 
 # C extensions
 *.so
