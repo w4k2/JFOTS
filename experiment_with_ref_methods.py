@@ -9,6 +9,8 @@ import time
 import smote_variants as sv
 from sklearn.base import clone
 
+from pymoo.factory import get_decomposition
+
 import datasets
 import metrics
 
@@ -107,7 +109,7 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 
     print(f"[{dataset_name}]: {classifier_name} + {resampler_name}")
     scores = np.zeros((len(scoring_functions), 10))
-    scores_ = np.zeros((4, len(scoring_functions), 10))
+    scores_ = np.zeros((5, len(scoring_functions), 10))
 
     for fold in range(10):
 
@@ -224,6 +226,26 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                 for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                     scores_[3, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
 
+                # ASF
+                weights = np.array([0.5, 0.5])
+                decomp = get_decomposition("asf")
+                asf_sol = decomp.do(solutions_scores, weights).argmin()
+
+                X_train = JFOTS_results[asf_sol][7][0]
+                y_train = JFOTS_results[asf_sol][7][1]
+
+                # Prepare test set with features from feature_mask
+                feature_mask = JFOTS_results[asf_sol][5]
+                X_test, y_test = dataset[fold][1]
+                X_test = X_test[:, feature_mask]
+
+                classifier = clone(classifiers[classifier_name])
+                clf = classifier.fit(X_train, y_train)
+                predictions = clf.predict(X_test)
+
+                for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
+                    scores_[4, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
+
         else:
             resampler = resamplers[resampler_name]
             X_train, y_train = resampler.sample(X_train, y_train)
@@ -251,6 +273,9 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 
                 fpath_pro = fpath / f'{resampler_name}_gm.csv'
                 np.savetxt(fpath_pro, scores_[3, sc_idx, :])
+
+                fpath_pro = fpath / f'{resampler_name}_asf.csv'
+                np.savetxt(fpath_pro, scores_[4, sc_idx, :])
         else:
             for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                 fpath = result_final_path / f'{dataset_name}' / f'{classifier_name}' / f'{scoring_function_name}'
