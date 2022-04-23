@@ -12,6 +12,9 @@ from sklearn.base import clone
 import datasets
 import metrics
 
+import logging
+
+
 RANDOM_STATE = 0
 resamplers = {
     'SMOTE': sv.SMOTE(random_state=RANDOM_STATE),
@@ -99,9 +102,12 @@ def promethee_function(solutions, criteria_min_max, preference_function, criteri
 
 
 def evaluate(dataset_name, classifier_name, resampler_name):
+    _logger = logging.getLogger('smote_variants')
+    _logger.setLevel(logging.CRITICAL)
 
+    print(f"[{dataset_name}]: {classifier_name} + {resampler_name}")
     scores = np.zeros((len(scoring_functions), 10))
-    scores_ = np.zeros((3, len(scoring_functions), 10))
+    scores_ = np.zeros((4, len(scoring_functions), 10))
 
     for fold in range(10):
 
@@ -117,6 +123,7 @@ def evaluate(dataset_name, classifier_name, resampler_name):
             JFOTS_results = pickle.load(open(result_path, "rb"))
             max_rc = -10
             max_pr = -10
+            max_gm = -10
 
             no_results = True
 
@@ -141,6 +148,11 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                     if rc > max_rc:
                         max_rc = rc
                         max_rc_id = solution_id
+                    # Best Gmean
+                    gm = np.sqrt(pr * rc)
+                    if gm > max_gm:
+                        max_gm = gm
+                        max_gm_id = solution_id
 
             if not no_results:
                 X_train = JFOTS_results[max_pr_id][7][0]
@@ -197,6 +209,21 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                 for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                     scores_[2, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
 
+                X_train = JFOTS_results[max_gm_id][7][0]
+                y_train = JFOTS_results[max_gm_id][7][1]
+
+                # Prepare test set with features from feature_mask
+                feature_mask = JFOTS_results[max_gm_id][5]
+                X_test, y_test = dataset[fold][1]
+                X_test = X_test[:, feature_mask]
+
+                classifier = clone(classifiers[classifier_name])
+                clf = classifier.fit(X_train, y_train)
+                predictions = clf.predict(X_test)
+
+                for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
+                    scores_[3, sc_idx, fold] = scoring_functions[scoring_function_name](y_test, predictions)
+
         else:
             resampler = resamplers[resampler_name]
             X_train, y_train = resampler.sample(X_train, y_train)
@@ -221,6 +248,9 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 
                 fpath_pro = fpath / f'{resampler_name}_prom.csv'
                 np.savetxt(fpath_pro, scores_[2, sc_idx, :])
+
+                fpath_pro = fpath / f'{resampler_name}_gm.csv'
+                np.savetxt(fpath_pro, scores_[3, sc_idx, :])
         else:
             for sc_idx, scoring_function_name in enumerate(scoring_functions.keys()):
                 fpath = result_final_path / f'{dataset_name}' / f'{classifier_name}' / f'{scoring_function_name}'
@@ -229,7 +259,7 @@ def evaluate(dataset_name, classifier_name, resampler_name):
                 np.savetxt(fpath, scores[sc_idx, :])
 
 
-Parallel(n_jobs=4)(
+Parallel(n_jobs=-1)(
                 delayed(evaluate)
                 (dataset_name, classifier_name, resampler_name)
                 for dataset_name in datasets.names()
