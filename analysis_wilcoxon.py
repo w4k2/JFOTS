@@ -13,7 +13,8 @@ RANDOM_STATE = 0
 resamplers = {
     # 'JFOTS_pr': None,
     # 'JFOTS_rc': None,
-    'JFOTS_prom': None,
+    # 'JFOTS_prom': None,
+    'JFOTS_gm': None,
     'SMOTE': sv.SMOTE(random_state=RANDOM_STATE),
     'polynom-fit-SMOTE': sv.polynom_fit_SMOTE(random_state=RANDOM_STATE),
     'Lee': sv.Lee(random_state=RANDOM_STATE),

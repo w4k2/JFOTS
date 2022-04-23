@@ -34,7 +34,7 @@ resamplers = {
     'JFOTS_pr': None,
     'JFOTS_rc': None,
     'JFOTS_prom': None,
-    'JFOTS_bac': None,
+    'JFOTS_gm': None,
 }
 
 
