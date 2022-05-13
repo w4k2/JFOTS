@@ -348,6 +348,11 @@ class JFOTS:
             self.objectives.append(objectives)
             self.solutions.append(JFOTSSolution(data, individual, objectives))
 
+        # All population
+        pop = result.pop
+        self.pop_X = pop.get("X")
+        self.pop_F = pop.get("F")
+
     def hv(self, ref_point=(0.0, 0.0), normalize=False):
         metric = Hypervolume(ref_point=ref_point, normalize=normalize)
 

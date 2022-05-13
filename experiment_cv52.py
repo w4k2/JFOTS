@@ -2,6 +2,7 @@ import argparse
 import logging
 from pathlib import Path
 import pickle
+import numpy as np
 from imblearn.over_sampling import SMOTE
 from pymoo.algorithms.moo.nsga2 import NSGA2
 from sklearn.neighbors import KNeighborsClassifier
@@ -65,6 +66,15 @@ def evaluate(fold, dataset_name):
         jfots.plot_pareto(file_name=pareto_path)
         jfots.plot_hv(file_name=hv_path)
 
+        print(jfots.pop_X)
+        # Save solutions from all populations
+        pop_path = RESULTS_PATH / f'population'
+        pop_path.mkdir(exist_ok=True, parents=True)
+        pop_X_path = pop_path / f'{dataset_name}_{fold}_{classifier_name}_pop_X.csv'
+        np.savetxt(fname=pop_X_path, fmt="%f", X=jfots.pop_X)
+        pop_F_path = pop_path / f'{dataset_name}_{fold}_{classifier_name}_pop_F.csv'
+        np.savetxt(fname=pop_F_path, fmt="%f", X=jfots.pop_F)
+
         for solution in jfots.solutions:
             row = [dataset_name, fold, classifier_name, "JFOTS", solution.objectives, solution.feature_mask, solution.type_mask, solution.data]
             rows.append(row)
@@ -85,7 +95,7 @@ for id, dataset in enumerate(datasets.names()):
 
 # Multithread
 # n_jobs - number of threads, where - 1 all threads, safe for my computer 2
-Parallel(n_jobs=5)(
+Parallel(n_jobs=1)(
                 delayed(evaluate)
                 (fold, dataset_name)
                 for fold in range(10)
