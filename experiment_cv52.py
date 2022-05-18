@@ -11,6 +11,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from joblib import Parallel, delayed
 import time
+import itertools
 
 from jfots2 import JFOTS
 import datasets
@@ -28,7 +29,7 @@ def evaluate(fold, dataset_name):
     oversampler_class = SMOTE
     oversampler_kwargs = {"k_neighbors": 5, "random_state": 0}
     optimizer_class = NSGA2
-    optimizer_kwargs = {"pop_size": 200}
+    optimizer_kwargs = {"pop_size": 500}
 
     classifiers = {
         'CART': DecisionTreeClassifier(random_state=RANDOM_STATE),
@@ -43,6 +44,7 @@ def evaluate(fold, dataset_name):
 
     dataset = datasets.load(dataset_name)
     (X_train, y_train), (X_test, y_test) = dataset[fold][0], dataset[fold][1]
+    pop_rows = []
     rows = []
     for classifier_name, classifier in classifiers.items():
         logging.info(f'Evaluating {result_name} for {classifier_name}...')
@@ -66,7 +68,6 @@ def evaluate(fold, dataset_name):
         jfots.plot_pareto(file_name=pareto_path)
         jfots.plot_hv(file_name=hv_path)
 
-        print(jfots.pop_X)
         # Save solutions from all populations
         pop_path = RESULTS_PATH / f'population'
         pop_path.mkdir(exist_ok=True, parents=True)
@@ -75,9 +76,22 @@ def evaluate(fold, dataset_name):
         pop_F_path = pop_path / f'{dataset_name}_{fold}_{classifier_name}_pop_F.csv'
         np.savetxt(fname=pop_F_path, fmt="%f", X=jfots.pop_F)
 
+        rows_solution_masks = []
+        sol_objectives = []
         for solution in jfots.solutions:
             row = [dataset_name, fold, classifier_name, "JFOTS", solution.objectives, solution.feature_mask, solution.type_mask, solution.data]
             rows.append(row)
+            row_solution_masks = [solution.feature_mask, solution.type_mask]
+            row_solution_masks_flat = list(itertools.chain.from_iterable(row_solution_masks))
+            rows_solution_masks.append(row_solution_masks_flat)
+            sol_objectives.append(list(solution.objectives))
+        # Save solutions masks from pareto to csv
+        sol_path = RESULTS_PATH / f'solution_masks'
+        sol_path.mkdir(exist_ok=True, parents=True)
+        sol_X_path = sol_path / f'{dataset_name}_{fold}_{classifier_name}_sol_X.csv'
+        np.savetxt(fname=sol_X_path, fmt="%f", X=rows_solution_masks)
+        sol_F_path = sol_path / f'{dataset_name}_{fold}_{classifier_name}_sol_F.csv'
+        np.savetxt(fname=sol_F_path, fmt="%f", X=sol_objectives)
 
         end = round(time.time() - start)
         print(f'DONE - Fold {fold} {dataset_name} (Time: {end} [s]) Classifier {classifier_name}')

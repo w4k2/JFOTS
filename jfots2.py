@@ -17,6 +17,7 @@ from sklearn.neighbors import NearestNeighbors
 
 import metrics
 import visualizers as vis
+import itertools
 
 
 class ObservationType(Enum):
@@ -348,10 +349,16 @@ class JFOTS:
             self.objectives.append(objectives)
             self.solutions.append(JFOTSSolution(data, individual, objectives))
 
-        # All population
+        # Solutions from all population
         pop = result.pop
-        self.pop_X = pop.get("X")
-        self.pop_F = pop.get("F")
+        pop_solutions = []
+        for pop_row in pop.get("X"):
+            pop_feature_mask, pop_type_mask = _get_feature_and_type_masks(pop_row)
+            ps_row = [list(pop_feature_mask), list(pop_type_mask)]
+            ps_row_flatten = list(itertools.chain.from_iterable(ps_row))
+            pop_solutions.append(ps_row_flatten)
+        self.pop_X = pop_solutions
+        self.pop_F = -pop.get("F")
 
     def hv(self, ref_point=(0.0, 0.0), normalize=False):
         metric = Hypervolume(ref_point=ref_point, normalize=normalize)
