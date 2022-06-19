@@ -1,5 +1,3 @@
-
-
 import argparse
 import logging
 from pathlib import Path
@@ -70,7 +68,7 @@ for dataset_id, dataset_name in enumerate(datasets.names()):
         for metric_id, metric in enumerate(scoring_functions.keys()):
             for resampler_id, resampler in enumerate(resamplers.keys()):
                 try:
-                    filename = "results_from_server/scores/%s/%s/%s/%s.csv" % (dataset_name, clf_name, metric, resampler)
+                    filename = "results_cv52/scores/%s/%s/%s/%s.csv" % (dataset_name, clf_name, metric, resampler)
                     if not os.path.isfile(filename):
                         # print("File not exist - %s" % filename)
                         continue
@@ -85,9 +83,9 @@ for dataset_id, dataset_name in enumerate(datasets.names()):
 
 for clf_id, clf_name in enumerate(classifiers.keys()):
     for metric_id, metric in enumerate(scoring_functions.keys()):
-        if not os.path.exists("results_from_server/tables/"):
-            os.makedirs("results_from_server/tables/")
-        with open("results_from_server/tables/results_%s_%s.tex" % (metric, clf_name), "w+") as file:
+        if not os.path.exists("results_cv52/tables/"):
+            os.makedirs("results_cv52/tables/")
+        with open("results_cv52/tables/results_%s_%s.tex" % (metric, clf_name), "w+") as file:
             print("\\begin{table}[!ht]", file=file)
             print("\\centering", file=file)
             print("\\caption{%s -- %s}" % (clf_name, metric), file=file)

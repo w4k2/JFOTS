@@ -11,11 +11,11 @@ from wilcoxon_ranking import pairs_metrics_multi
 
 RANDOM_STATE = 0
 resamplers = {
-    # 'JFOTS_pr': None,
+    'JFOTS_pr': None,
     # 'JFOTS_rc': None,
     # 'JFOTS_prom': None,
     # 'JFOTS_gm': None,
-    'JFOTS_asf': None,
+    # 'JFOTS_asf': None,
     'SMOTE': sv.SMOTE(random_state=RANDOM_STATE),
     'polynom-fit-SMOTE': sv.polynom_fit_SMOTE(random_state=RANDOM_STATE),
     'Lee': sv.Lee(random_state=RANDOM_STATE),
@@ -42,5 +42,15 @@ scoring_functions = {
     'BAC': metrics.bac,
 }
 
+datas = []
+selected_datasets = [2, 5, 12, 47, 57]
+for id, dataset in enumerate(datasets.names()):
+    for id_ in selected_datasets:
+        if id == id_:
+            datas.append(dataset)
+
 # Wilcoxon ranking plots
-pairs_metrics_multi(method_names=list(resamplers.keys()), dataset_names=list(datasets.names()), metrics=list(scoring_functions.keys()), experiment_names=list(classifiers.keys()), methods_alias=list(resamplers.keys()), metrics_alias=list(scoring_functions.keys()), streams_alias=list(datasets.names())[0], title=False)
+pairs_metrics_multi(method_names=list(resamplers.keys()), dataset_names=list(datas), metrics=list(scoring_functions.keys()), experiment_names=list(classifiers.keys()), methods_alias=list(resamplers.keys()), metrics_alias=list(scoring_functions.keys()), streams_alias=list(datas)[0], title=True)
+
+# dataset_names=list(datasets.names()),
+# streams_alias=list(datasets.names())[0]

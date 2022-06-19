@@ -23,7 +23,7 @@ def pairs_metrics_multi(method_names, dataset_names, metrics, experiment_names, 
             for metric in metrics:
                 for experiment_name in experiment_names:
                     try:
-                        data[(method_name, stream_name, metric, experiment_name)] = np.genfromtxt("results_from_server/scores/%s/%s/%s/%s.csv" % (stream_name, experiment_name, metric, method_name))
+                        data[(method_name, stream_name, metric, experiment_name)] = np.genfromtxt("results_cv52/scores/%s/%s/%s/%s.csv" % (stream_name, experiment_name, metric, method_name))
                     except:
                         print("None is ", method_name, stream_name, metric, experiment_name)
                         data[(method_name, stream_name, metric, experiment_name)] = None
@@ -33,7 +33,7 @@ def pairs_metrics_multi(method_names, dataset_names, metrics, experiment_names, 
     fig, axes = plt.subplots(len(experiment_names), len(metrics))
     fig.subplots_adjust(wspace=0.6, hspace=0.2)
     if title:
-        fig.suptitle(methods_alias[0]+" "+streams_alias, fontsize=32, x=0.5, y=1.05)
+        fig.suptitle(methods_alias[0], fontsize=32, x=0.5, y=1.05)
 
     # --------------------------------------
     # Init/clear ranks
@@ -130,10 +130,10 @@ def pairs_metrics_multi(method_names, dataset_names, metrics, experiment_names, 
     for j, metric_a in enumerate(metrics_alias):
         axes[0, j].set_title(metric_a.upper(), fontsize=22)
 
-    if not os.path.exists("results_from_server/ranking_plots/"):
-        os.makedirs("results_from_server/ranking_plots/")
+    if not os.path.exists("results_cv52/ranking_plots/"):
+        os.makedirs("results_cv52/ranking_plots/")
     plt.gcf().set_size_inches(30, 10)
-    filename = "results_from_server/ranking_plots/ranks_%s" % (methods_alias[0])
+    filename = "results_cv52/ranking_plots/ranks_%s" % (methods_alias[0])
     # if title:
     #     filename = "results/ranking_plots/ranks_%s_%s" % (streams_alias, methods_alias[0])
     # else:
