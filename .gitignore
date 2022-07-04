@@ -8,6 +8,9 @@ results_from_server/scores
 */scores
 */figures
 */raw
+*/ensemble_scores
+*/population
+*/solution_masks
 
 # C extensions
 *.so

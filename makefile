@@ -33,3 +33,8 @@ analysis:
 analysis_bac:
 	python -W ignore analysis_best_metric.py
 	cd article && pdflatex main.tex main.pdf && xdg-open main.pdf
+
+open_pickles_cv:
+	zip -F results_cv52/raw.zip --out results_cv52/raw_full.zip
+	unzip results_cv52/raw_full.zip -d results_cv52
+	rm results_cv52/raw_full.zip

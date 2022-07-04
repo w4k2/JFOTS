@@ -19,14 +19,14 @@ import logging
 
 RANDOM_STATE = 0
 resamplers = {
-    'SMOTE': sv.SMOTE(random_state=RANDOM_STATE),
-    'polynom-fit-SMOTE': sv.polynom_fit_SMOTE(random_state=RANDOM_STATE),
-    'Lee': sv.Lee(random_state=RANDOM_STATE),
-    'SMOBD': sv.SMOBD(random_state=RANDOM_STATE),
-    'G-SMOTE': sv.G_SMOTE(random_state=RANDOM_STATE),
-    'LVQ-SMOTE': sv.LVQ_SMOTE(random_state=RANDOM_STATE),
-    'Assembled-SMOTE': sv.Assembled_SMOTE(random_state=RANDOM_STATE),
-    'SMOTE-TomekLinks': sv.SMOTE_TomekLinks(random_state=RANDOM_STATE),
+    # 'SMOTE': sv.SMOTE(random_state=RANDOM_STATE),
+    # 'polynom-fit-SMOTE': sv.polynom_fit_SMOTE(random_state=RANDOM_STATE),
+    # 'Lee': sv.Lee(random_state=RANDOM_STATE),
+    # 'SMOBD': sv.SMOBD(random_state=RANDOM_STATE),
+    # 'G-SMOTE': sv.G_SMOTE(random_state=RANDOM_STATE),
+    # 'LVQ-SMOTE': sv.LVQ_SMOTE(random_state=RANDOM_STATE),
+    # 'Assembled-SMOTE': sv.Assembled_SMOTE(random_state=RANDOM_STATE),
+    # 'SMOTE-TomekLinks': sv.SMOTE_TomekLinks(random_state=RANDOM_STATE),
     'JFOTS': None
 }
 
@@ -286,11 +286,11 @@ def evaluate(dataset_name, classifier_name, resampler_name):
 
 
 datas = []
-selected_datasets = [2, 5, 12, 47, 57]
+# selected_datasets = [2, 5, 12, 47, 57]
 for id, dataset in enumerate(datasets.names()):
-    for id_ in selected_datasets:
-        if id == id_:
-            datas.append(dataset)
+    # for id_ in selected_datasets:
+    #     if id == id_:
+    datas.append(dataset)
 
 Parallel(n_jobs=1)(
                 delayed(evaluate)
